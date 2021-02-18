@@ -1,5 +1,5 @@
 body {
-  background-color: #4984B8;
+  background-color: white;
 }
 
 button {
@@ -8,7 +8,21 @@ button {
   color: white;
   font-weight: 700;
   margin-right: 20px;
+  padding: 10px;
+  background-color: darkslategray;
+}
+
+.input-task {
   padding: 5px;
+  border-radius: 3px;
+  background: #ece8e8;
+  border: 1px solid #000000;
+  width: 275px;
+}
+
+.input-task:hover {
+  background: white;
+  border: 1px solid #55a30d;
 }
 
 li {
@@ -16,7 +30,7 @@ li {
 }
 
 .colore-elemento-lista {
-  background-color: gray;
+  background-color: #9fb7e6;
 }
 
 .completed {
@@ -24,13 +38,14 @@ li {
 }
 
 .lista-tarefas {
-  background-color: #000133;
+  background-color: #9dbcd4c2;
   border-radius: 15px;
-  color: white;
+  color: black;
   margin-left: 5%;
   margin-right: 5%;
   padding: 5%;
   width: 80%;
+  font-size: 1.2em;
 }
 
 .cabecalho {
@@ -38,17 +53,6 @@ li {
 }
 
 .btn-adicionar {
-  background-color: rgb(46 , 184 , 46);
+  background-color: rgb(41, 143, 41);
 }
 
-.btn-salvar {
-  background-color: rgb(46 , 184 , 46);
-}
-
-.btn-limpar {
-  background-color: rgb(255 , 71 , 26);
-}
-
-.mover {
-  background-color: rgb(115 , 38 , 77);
-}
